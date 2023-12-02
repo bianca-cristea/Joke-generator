@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(221, 201, 19);
+}
+.wrapper {
+  position: absolute;
+  padding: 40px 50px;
+  background-color: #000;
+  height: 400px;
+  width: 80vmin;
+  text-align: center;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span {
+  width: 100%;
+  font-size: 100px;
+  display: block;
+}
+p {
+  color: #ffffff;
+  padding: 20px;
+}
+button {
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
